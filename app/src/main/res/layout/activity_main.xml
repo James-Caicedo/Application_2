@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/image"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200sp"
+        android:textSize="35sp"
+        android:textColor="#FFEADA4F"
+        android:textStyle="bold"
+        android:layout_marginBottom="10sp"
+        android:text="!FORMULARIO!" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:hint="Nombre"
+        android:backgroundTint="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginBottom="10sp"
+         />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:textSize="20sp"
+        android:layout_marginBottom="10sp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INICIE SESIÓN"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:backgroundTint="#EADA4F"
+        android:textStyle="bold"
+        app:cornerRadius="10sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_marginBottom="60sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@android:color/transparent"
+            android:text="Registrese" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60sp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:backgroundTint="@android:color/transparent"
+            android:text="¿Ya tienes cuenta?" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

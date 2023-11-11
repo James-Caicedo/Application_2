@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    android:gravity="center"
+    android:alpha="0.9"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:background="#1C4326"
+        android:fontFamily="@font/aclonica"
+        android:layout_marginBottom="20sp"
+        android:text="PARTICIPANTES"
+        android:textAlignment="center"
+        android:textColor="#48FF1F"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_marginStart="25sp"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:id="@+id/icon_1"
+            android:layout_marginBottom="20sp"
+            android:src="@drawable/icono_1"
+            app:shapeAppearanceOverlay="@style/radius"/>
+
+
+
+        <TextView
+            style="@style/text"
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Participante    #1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_marginStart="25sp"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:id="@+id/icon_2"
+            android:layout_marginBottom="20sp"
+            android:src="@drawable/icono_2"
+            app:shapeAppearanceOverlay="@style/radius"/>
+
+        <TextView
+            style="@style/text"
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Participante    #2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginStart="25sp"
+            android:id="@+id/icon_3"
+            android:src="@drawable/icono_3"
+            android:layout_marginBottom="20sp"
+            app:shapeAppearanceOverlay="@style/radius"/>
+
+        <TextView
+            style="@style/text"
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Participante    #3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginStart="25sp"
+            android:id="@+id/icon_4"
+            android:layout_marginBottom="20sp"
+            android:src="@drawable/icono_4"
+            app:shapeAppearanceOverlay="@style/radius"/>
+
+        <TextView
+            style="@style/text"
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Participante    #4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginStart="25sp"
+            android:id="@+id/icon_5"
+            android:src="@drawable/icono_5"
+            app:shapeAppearanceOverlay="@style/radius"/>
+
+        <TextView
+            style="@style/text"
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Participante   #5" />
+
+    </LinearLayout>
+</LinearLayout>
